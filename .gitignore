@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local runtime artifacts (keep the repo app-only)
+node_modules/
+__pycache__/
+*.log
+
+# Local model caches (never commit weights)
+.ollama/
+ollama_models/
